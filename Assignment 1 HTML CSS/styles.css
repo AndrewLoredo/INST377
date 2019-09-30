@@ -1,0 +1,61 @@
+/* styles sheet for index.html 
+Andrew Felix Loredo 
+INST 377*/
+
+/*Q2-1*/
+#siteHeader {
+  background-color:#800000;
+  color:#FFFAF0;
+}
+
+/*Q2-2*/
+#mainSection {
+  width: 60%;
+  margin: auto;
+}
+
+/*Q2-3*/
+#mainSection{
+  column-count: 2;
+  column-rule: 2px solid #800000;
+  column-gap:30px;
+
+}
+
+/*Q2-4*/
+.mainSection_body img{
+	width: 100%;
+	height:350px;
+}
+
+/*Q2-5*/
+.mainSection_body--work h3 {
+	   background-color:#800000;
+	   color:#FFFAF0; ;
+	}
+.mainSection_body--work h4 {
+	   color:#800000;
+	}
+.mainSection_body--work ul {
+	list-style-type:circle;
+	}
+.mainSection_body--work p {
+	font-weight:bold;
+	}
+
+/*Extra CSS code to make the page look nicer*/
+
+#siteHeader {
+	text-align: center;
+}
+
+#mainSection{
+  column-rule: 2px solid #800000;
+  column-gap:30px;
+}
+
+.mainSection_body h2{
+	color:#800000;
+	text-decoration:underline;
+}
+
